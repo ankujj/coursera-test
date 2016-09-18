@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+
+  <header> <!-- Semantic Html5 tag -->
+
+    <nav id="header-nav" class="navbar navbar-default">  <!-- creates a header bar -->
+      <div class="container">   <!-- container class used versus container-fluid since we dont want content to stretch with the viewport -->
+        <div class="navbar-header"> <!-- navbar-header class is used to group brand and toggle button together for better mobile view -->
+          <div class="navbar-brand"> <!-- put your branding related items under navbar-brand class -->
+              <a href="#"><h1>Food, LLC</h1></a>
+          </div>
+            <button type="button"  class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Collapsible-Menu-Items" aria-expanded="false"> <!-- this is the collapsible button -->
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        </div> <!-- End of NavBar Header -->
+
+        <div class="collapse navbar-collapse" id="Collapsible-Menu-Items"> <!-- what will display when the mobile view collapsible button is clicked -->
+          <ul id="nav-list" class="nav navbar-nav navbar-right"> <!-- navbar-right class is used to float the  button elements float to right in medium and large view -->
+            <li><span class="visible-xs"> Chicken</span></li>
+            <li><span class="visible-xs"> Beef</span></li>
+            <li><span class="visible-xs"> Sushi</span></li>
+          </ul>
+        </div> <!-- End of collapsible mobile button items -->
+      </div> <!-- End of Container -->
+    </nav>
+  </header>
+
+  <!-- Body Starts here  -->
+  <div class="container">
+    <h2 class="text-center">Our Menu</h2>
+    <div class="row">
+      <section class="Food-Section col-lg-4 col-md-6">
+        <div id="Chicken" class="Food-Div">
+          <div>
+            <span >Chicken </span>
+          </div>
+          <article>
+            I am Chicken. Chicken is considered white meat. Chicken is consumer all across the world and is easier to digest than other meats i.e. red meats.
+            Chicken thighs are particulary juicy or so the people say. I would like to elaborate here on the way chicken is used in Indian Cusines. Some of the most popular Indian Chicken dishes include Butter Chicken, Chicken tandoori and Chicken Biryani. Butter Chicken is a not so spicy gravy contaning boneless chicken and is extremely rich in flavours. Chicken tandoori is made by marinating chicken in a mix of hung or greek youghurt, ginger garlic paste, indian spices, tandoori masala. It is preferred that the chicken stays marinated atlease overnight so that the marination seeps in the chicken making it more tasty and juicy. It is then grilled/baked in a Tandoor which also gives it a very smoky nice flavour. 
+
+            Chicken biryani, I am not sure exactly how it is made. However it is my spouse's favourite food.
+            <a href="#Chicken">Back To Top</a>
+          </article>
+        </div>
+        
+      </section>
+      <section class="Food-Section col-lg-4 col-md-6">
+        <div id="Beef" class="Food-Div">
+          <div>
+            <span >Beef </span>
+          </div>
+          <article>
+            Beef is considered red meat. I dont know much about Beef preparations since I have never had any. Consumption of Beef is banned in India since Cow is considered sacred there. I know about steak being one of the best cuts of Beef and is enjoyed by people who consume beef. Steak can be had rare, medium rare, well cooked. Medium Rare is how chefs and most people would like to have their steaks. Poutine which is a canadian cuisine makes use of Beef stalk to make the gravy in which fries are dipped.
+            <a href="#Chicken">Back To Top</a>
+          </article>
+        </div>
+        
+      </section>
+      <section class="Food-Section col-lg-4 col-md-12">
+        <div id="Sushi" class="Food-Div">
+          <div>
+            <span >Sushi </span>
+          </div>
+          <article>
+          Sushi one of the japanese finest cusisine popular all over the world. They say its an art to make sushi and not everyone can pull it off. I have had the oppurtunity to taste sushi once or twice and I liked it. But many of my friends cannot digest the idea of consuming raw fish.
+          <a href="#Chicken">Back To Top</a>
+          </article>
+        </div>
+        
+      </section>
+    </div>
+  </div> <!-- End of Body Content -->
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  
+  
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  
+</body>
+</html>
