@@ -1,0 +1,105 @@
+#header-nav {
+	border-radius: 0;
+	/*background-color: #19E9DF;*/
+	min-height: 80px;
+	
+}
+
+.navbar-brand h1 {
+	margin-top: 0px;
+	margin-bottom: 3px;
+	line-height: 1;
+	text-shadow: 1px 1px 1px;
+
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+} 
+
+.navbar-header button.navbar-toggle {
+	margin-top: 15px;
+	border-color: black;
+	
+}
+
+.navbar-header  button.navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+#nav-list {
+	margin-top:0px;
+	margin-bottom: 0px;
+	background-color: green;
+
+}
+
+h2 {
+	margin-top: 10px;
+	border-bottom: 2px solid black;
+	font-style: italic;
+	font-size: 20px;
+}
+
+section {
+	margin-bottom: 10px;
+}
+table {
+	margin-bottom: 10px;
+}
+.strong {
+	font-weight: bold;
+}
+ul {
+	list-style-image: url(images/bullet2.gif);
+}
+td{
+	text-align: right;
+}
+td.desc {
+	text-align: left;
+}
+div.super-highlight {
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-right:3px;
+	padding-left:3px;
+	margin-top:15px;
+	margin-bottom:15px;
+	background-color: #D3D3D3;
+}
+
+div.border-box {
+	border:1px solid black;
+	padding-bottom:100%;
+	margin-bottom:-100%;
+}
+
+#companyname {
+	font-size: 18px;
+}
+
+#nav-list li span{
+	text-align: center;
+	font-weight: bold;
+	padding: 2px;
+	border-bottom: 1px solid black;
+}
+
+.row {
+	width:100%;
+	margin-right:0px;
+	margin-left:0px;
+	overflow: hidden;
+}
+
+.end-hack {
+
+	border-top:1px solid black;
+	margin-bottom: 20px;
+}
+
+.highlight {
+ background-color: #DCDCDC;
+}
